@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    padding: 0px;
+        
+}
+
+
+header {
+    background-color: #121B2A;
+    padding: 10px 0;
+}
+
+.wrapper {
+    width: 80%;
+   
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    width: 17%;
+    float: left;
+}
+
+.logo img{
+    width: 100%;
+    
+}
+
+.menu {
+    width: 70%;
+   
+    float: right;
+    margin-top: 30px;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+        list-style: none;
+    float: left;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 0px 15px;
+    display: inline-block;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.menu ul li a:hover{
+    color: #0078BD;
+}
+
+.menu ul li:last-child a{
+    padding-right: 0px;
+}
